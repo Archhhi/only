@@ -1,0 +1,18 @@
+.page {
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.page__wrapper {
+    display: flex;
+    padding: 5px 27vw;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1340px) {
+    .page__wrapper {
+        padding: 0 40px;
+    }
+}
